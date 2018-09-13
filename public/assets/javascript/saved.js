@@ -173,6 +173,8 @@ $(document).ready(function() {
       // This function handles what happens when a user tries to save a new note for an article
       // Setting a variable to hold some formatted data about our note,
       // grabbing the note typed into the input box
+      //grab the id of the article
+      //post methode for note collection send id of headline and the newNote
       var noteData;
       var newNote = $(".bootbox-body textarea")
         .val()

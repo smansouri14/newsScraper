@@ -18,6 +18,9 @@ var headlineSchema = new Schema({
     saved: {
         type: Boolean,
         default: false
+    },
+    link: {
+        type: String
     }
 });
 
