@@ -123,7 +123,7 @@ function createCard(article) {
 
   function handleArticleClear() {
     $.get("api/clear").then(function() {
-      articleContainer.empty();
+      articleContainer.empty(card);
       initPage();
     });
   }

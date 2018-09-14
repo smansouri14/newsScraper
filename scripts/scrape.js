@@ -32,7 +32,6 @@ var scrape = function (cb) {
                 articles.push(dateToAdd);
             }
         });
-        console.log("hello");
                 cb(articles);
     });
 };
